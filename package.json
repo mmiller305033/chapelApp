@@ -1,0 +1,20 @@
+{
+  "name": "AmISheep",
+  "version": "1.0.0",
+  "description": "Website for sheep detection",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bufferutil": "^4.0.5",
+    "express": "^4.17.2",
+    "multer": "^1.4.4",
+    "serve": "^10.0.1",
+    "utf-8-validate": "^5.0.7",
+    "ws": "^8.4.0"
+  },
+  "author": "Mark Miller",
+  "engines": {
+    "node": "12.17.x"
+  }
+}

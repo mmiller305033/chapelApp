@@ -1,0 +1,104 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #F3DAD8;
+  min-height: 100%;
+}
+div {
+margin-bottom: 100px;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Rock-3D";
+  font-size: 1.1em;
+  color: #000000;
+}
+h2 {
+  text-align: center;
+  font-family: "Rock-3D";
+  font-size: 2em;
+  color: #E88EED;
+}
+h3 {
+  text-align: center;
+  font-family: "Rock-3D";
+  font-size: 6em;
+  color: #EFAAA9;
+
+}
+
+label {
+  font-family: "RobotoCondensed-Regular";
+  background-color: #EFAAA9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:40px;
+  width:480px;
+  margin: -20px -200px;
+  position:relative;
+  top:50%;
+  left:50%;
+  background-color: #EFAAA9;
+  opacity: 100;
+}
+
+label:hover {
+  font-family: "RobotoCondensed-Regular";
+  height:40px;
+  width:480px;
+  margin: -20px -200px;
+  position:relative;
+  top:50%;
+  left:50%;
+  background-color: #E05452
+}
+input{
+opacity: 0;
+    }
+button{
+  font-family: "RobotoCondensed-Regular";
+  height:40px;
+  width:120px;
+  margin: -20px -50px;
+  position:relative;
+  top:50%;
+  left:50%;
+  background-color: #EFAAA9;
+  opacity: 100;
+        }
+
+
+
+
+button:hover{
+  font-family: "RobotoCondensed-Regular";
+  height:40px;
+  width:120px;
+  margin: -20px -50px;
+  position:relative;
+  top:50%;
+  left:50%;
+  background-color: #E05452
+}
+
+.centerCell {
+  text-align: center;
+}
+@font-face{
+    font-family: "Rock-3D";
+    src: url('../resources/fonts/Rock3D-Regular.ttf')
+}
+@font-face{
+    font-family: "RobotoCondensed-Regular";
+    src: url('../resources/fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf')
+}

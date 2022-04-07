@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Chapel App</title>
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+
+  <div>
+    <span>
+      <h3> Chapel App<h3>
+    </span>
+  </div>
+
+  <div>
+  </div>
+  <div>
+        <input type="file" id="fileID" hidden></input>
+        <label for='fileID'>select image</label>
+  </div>
+
+  <div>
+    <h1 id='server-time'>current time</h1>
+    <script>
+    var HOST = location.origin.replace(/^http/, 'ws')
+           var ws = new WebSocket(HOST);
+           var el;
+
+
+           ws.onerror = function (error) {
+               alert('Error');
+           };
+
+           ws.onmessage = function (event) {
+               el = document.getElementById('server-time');
+               el.innerHTML = 'Server time: ' + event.data;
+           };
+    </script>
+  </div>
+</body>
+</html>
